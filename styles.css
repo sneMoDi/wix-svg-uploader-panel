@@ -1,0 +1,9 @@
+:root { --pad:12px; --radius:10px; --mono: ui-monospace, Menlo, Consolas, monospace; }
+html,body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+.container { padding:16px; }
+.picker { display:flex; gap:8px; align-items:center; margin:8px 0 16px; }
+button { padding:8px 12px; border-radius:8px; border:1px solid #ccc; background:#f8f8f8; cursor:pointer; }
+button:disabled { opacity:.6; cursor:not-allowed; }
+.log { background:#0b1020; color:#d5f3ff; border-radius:var(--radius); padding:var(--pad); font-family:var(--mono); font-size:12px; line-height:1.4; min-height:200px; overflow:auto; }
+.progress { width:100%; height:8px; background:#eee; border-radius:6px; overflow:hidden; margin:6px 0 12px; }
+.bar { height:100%; width:0%; background:#3b82f6; transition: width .2s ease; }

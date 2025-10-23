@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SVG Uploader (Wix Media Manager)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Upload your image (SVG)</h1>
+
+    <div class="picker">
+      <input id="fileInput" type="file" accept=".svg" multiple />
+      <button id="btnUpload">Upload</button>
+    </div>
+
+    <div class="progress" id="progressWrap" hidden>
+      <div id="progressBar" class="bar"></div>
+    </div>
+
+    <div class="status">
+      <pre id="log" class="log"></pre>
+    </div>
+  </main>
+
+  <script src="./panel.js" defer></script>
+</body>
+</html>
