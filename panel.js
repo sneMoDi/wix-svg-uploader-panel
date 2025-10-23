@@ -1,6 +1,6 @@
 // panel.js
 // 1) Set your live Wix site base (no trailing slash), e.g. "https://example.wixsite.com/mysite"
-const SITE_BASE = "https://<YOUR-WIX-SITE-DOMAIN>";
+const SITE_BASE = "https://devcentertesting.wixsite.com/dev-sitex-1634411368";
 
 // 2) Endpoints (from your Velo HTTP functions)
 const GEN_URL = `${SITE_BASE}/_functions/generateUploadUrl`;
